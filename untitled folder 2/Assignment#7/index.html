@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Safin Shihab</title>
+    <style>
+      #rect1{
+          fill: url(#gradient1);
+      }
+
+      #rect1:hover, #circle1:hover, #triangle1:hover{
+          fill: orange;
+      }
+
+      #rect1:active, #circle1:active, #triangle1:acitve{
+          fill: orange;
+      }
+
+      #circle1{
+          fill:url(#gradient2);
+      }
+
+      #triangle1{
+          fill:url(#gradient3);
+      }
+  </style>
+  </head>
+  <body>
+    <svg width="550" height="300">
+      <title>SVG with SS Intial</title>
+      <defs>
+          <!-- define our gradients or any other unqiue attributes that we want to apply to our svgs -->
+          <linearGradient id="gradient1"> 
+              <stop offset="0%" stop-color="blue"/>
+              <stop offset="100%" stop-color="orange"/>
+          </linearGradient>
+  
+          <linearGradient id="gradient2">
+              <stop offset="0%" stop-color="blue"/>
+              <stop offset="100%" stop-color="orange">
+          </linearGradient>
+  
+          <linearGradient id="gradient3">
+              <stop offset="0%" stop-color="blue"/>
+              <stop offset="50%" stop-color="orange"/>
+              <stop offset="100%" stop-color="blue">
+          </linearGradient>
+      </defs>
+  
+      <!--  grouping shapes -->
+      <g id="shapes">
+  
+          <!-- adding a link to a drawing element -->
+          <a href="https://i6.cims.nyu.edu/~ss14172/">
+          <!-- circle -->
+          <circle id="circle1" cx="390" cy="150" r="120" />  
+            
+          </a>
+  
+          <a href="https://i6.cims.nyu.edu/~ss14172/image">
+            <!-- triangle -->
+          <polygon id='triangle1' points="400,30 270,270 520,270"/>
+          </a>
+          
+          <!-- square -->
+          <rect id="rect1" x="220" y="30" width="50" height="240" />
+          <!-- square -->
+          <rect id="rect1" x="500" y="30" width="240" height="240" />
+          
+          <text x="385" y="170">SS</text>
+      </g>
+  </svg>
+    <h1>Introduction to Web Design</h1>
+    <p> My name is Safin Shihab. I am a junior majoring in Computer Science at Tandon School of Engineering.<br> I am taking this course because I want to 
+      brush up my knowledge on webdesigns. I have some prior <br> experience with web designs but I want to make sure my foundation is good as most of what I 
+      learned <br> was through subreddits and youtube videos.
+    </p>
+    <div style="margin: auto; padding-left: 20px;">
+    <ul>
+      <a href="me/"><li style="color: green ;">HTML</li></a>
+      <a href="me/"><li style="color: green ;">CSS</li></a>
+      <a href="image/"><li style="color: green ;">Raster Graphics</li></a>
+      <a href="vector/"><li style="color: green ;">Vector Graphics</li></a>
+      <a href="page_layout/"><li style="color: green ;">Page Layout</li></a>
+      <a href="page_layout/"><li style="color: green ;">Responsive Design</li></a>
+      <li >JavaScript</li>
+      <li >Final Project</li>
+    </ul>
+  </div>
+  </body>
+</html>

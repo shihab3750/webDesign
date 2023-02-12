@@ -1,0 +1,76 @@
+/* External Stylesheet for the ME website */
+
+
+/* General Styles */
+body{
+  background-color: antiquewhite;
+  padding: 50px;
+}
+
+h1, h2, h3{ 
+  color: #2d2d2d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+
+p{
+  color: #2d2d2d;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+/* Stylizing Links */
+a:link, a:visited {
+  color:black;
+}
+
+a:hover{
+  color:black;
+  background-color: orange
+}
+
+a:active{
+  color:black;
+  background-color: orange;
+}
+
+
+/* selecting a HTML element using an id*/
+#title { 
+  font-size: 3em;
+  text-align: center;
+}
+
+
+
+
+/* Styling Sections */
+
+.map{
+    display:block;
+    margin:auto;
+    padding-left: 650px;
+    padding-right: 650px;
+    text-align: center;
+}
+.centerImage{
+  display:block;
+  margin:auto;
+  text-align: center;
+  padding:40px;
+}
+article{
+  width:calc(94%/3);
+  margin-right:2%;
+  float:left;
+}
+
+
+/* Stylizing Footer */
+
+footer{
+  padding-top: 30px;
+  text-align: center;
+  clear:both;
+}

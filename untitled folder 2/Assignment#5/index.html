@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG</title>
+  <style>
+    body{
+      background-color: antiquewhite;
+    }
+    #rect1{
+        fill: url(#gradient1);
+    }
+
+    #rect1:hover{
+        fill: orange;
+    }
+
+    #circle1{
+        fill:url(#gradient2);
+
+    }
+    #triangle1{
+        fill:url(#gradient3);
+    }
+    #triangle1:active{
+        fill: orange
+    }
+</style>
+</head>
+<body>
+    <svg width="550" height="300">
+        <title>SVG with SS Intial</title>
+        <defs>
+            <!-- define our gradients or any other unqiue attributes that we want to apply to our svgs -->
+            <linearGradient id="gradient1"> 
+                <stop offset="0%" stop-color="blue"/>
+                <stop offset="100%" stop-color="orange"/>
+            </linearGradient>
+    
+            <linearGradient id="gradient2">
+                <stop offset="0%" stop-color="blue"/>
+                <stop offset="100%" stop-color="orange">
+            </linearGradient>
+    
+            <linearGradient id="gradient3">
+                <stop offset="0%" stop-color="blue"/>
+                <stop offset="50%" stop-color="orange"/>
+                <stop offset="100%" stop-color="blue">
+            </linearGradient>
+        </defs>
+    
+        <!--  grouping shapes -->
+        <g id="shapes">
+    
+            <!-- adding a link to a drawing element -->
+            <a href="https://i6.cims.nyu.edu/~ss14172/">
+            <!-- circle -->
+            <circle id="circle1" cx="390" cy="150" r="120" />  
+              
+            </a>
+    
+            <a href="https://i6.cims.nyu.edu/~ss14172/image">
+              <!-- triangle -->
+            <polygon id='triangle1' points="400,30 270,270 520,270"/>
+            </a>
+            
+            <!-- square -->
+            <rect id="rect1" x="220" y="30" width="50" height="240" />
+            <!-- square -->
+            <rect id="rect1" x="500" y="30" width="240" height="240" />
+            
+            <text x="385" y="170">SS</text>
+        </g>
+    </svg>
+</body>
+</html>
