@@ -2,6 +2,7 @@ body {
   font-size: medium;
   background-color: antiquewhite;
   font-family: Helvetica, sans-serif;
+  color: #2b193d;
 }
 
 .wrap {
@@ -11,6 +12,8 @@ body {
 nav ul {
   list-style-type: none;
   border: solid 1px black;
+  background-color: rgb(221, 200, 173);
+
   display: flex;
   padding: 30px;
 }
