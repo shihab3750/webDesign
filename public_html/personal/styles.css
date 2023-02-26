@@ -1,8 +1,8 @@
 body {
   font-size: medium;
-  background-color: antiquewhite;
+  background-color: #846c5b;
   font-family: Helvetica, sans-serif;
-  color: #2b193d;
+  color: antiquewhite;
 }
 
 .wrap {
@@ -12,24 +12,45 @@ body {
 nav ul {
   list-style-type: none;
   border: solid 1px black;
-  background-color: rgb(221, 200, 173);
-
+  background-color: #1b3022;
   display: flex;
   padding: 30px;
 }
 nav ul li {
-  border: solid 1px black;
+  /* border: solid 1px black; */
   flex-grow: 1;
 }
 nav ul li a {
   /* border: solid 1px black; */
   text-align: center;
+  color: antiquewhite;
 }
 
 main {
   border: solid 1px black;
   text-align: center;
+  background-color: #1b3022;
 }
 header {
   text-align: center;
+}
+a:link,
+footer a {
+  color: antiquewhite;
+}
+a:visited,
+footer:visited {
+  color: red;
+}
+a:hover,
+footer a:hover {
+  background-color: #846c5b;
+  cursor: pointer;
+}
+footer a:hover {
+  color: #1b3022;
+}
+a:active,
+footer:active {
+  color: yellow;
 }
