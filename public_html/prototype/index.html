@@ -9,14 +9,16 @@
       #wrap {
         border: solid 1px black;
       }
-      #products {
+      #products,
+      #testimonials {
         border: solid 1px red;
       }
       .heading {
         border: solid 1px green;
         text-align: center;
       }
-      .productsRow {
+      .productsRow,
+      .testimonialRow {
         display: flex;
         justify-content: center;
       }
@@ -29,6 +31,25 @@
       .productDescription {
         border: solid 1px green;
         padding: 100px;
+        margin: 50px;
+      }
+      /* .testimonialRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      } */
+      .testimonial {
+        display: flex;
+      }
+      .testimonialImage {
+        background-color: aquamarine;
+        text-align: center;
+        margin: 50px;
+      }
+      .testimonialText {
+        background-color: red;
+        display: flex;
+        align-items: center;
         margin: 50px;
       }
     </style>
@@ -62,6 +83,66 @@
             <p>Personal Robot, can wash dishes, clean house and cook!</p>
             <h4>Price: $299.99</h4>
             <p class="warning">Only 1 left in stock</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <div class="heading">
+          <h1>Testimonials</h1>
+        </div>
+        <div class="testimonialRow">
+          <div class="testimonial">
+            <div class="testimonialImage">
+              <img src="images/testimonial_images/first.png" />
+              <p>Rachael Zhang</p>
+            </div>
+            <div class="testimonialText">
+              <p>
+                "I recently purchased a robot from Modo and I have to say, I am
+                thoroughly impressed! From the moment I took it out of the box,
+                I could tell that this was a high-quality product. The robot is
+                sleek, modern, and well-designed, with a range of impressive
+                features that make it stand out from other robots on the
+                market."
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- second testimonial -->
+        <div class="testimonialRow">
+          <div class="testimonial">
+            <div class="testimonialImage">
+              <img src="images/testimonial_images/second.png" />
+              <p>Jack Dorsey</p>
+            </div>
+            <div class="testimonialText">
+              <p>
+                “This robot is a game-changer in every way. From its sleek
+                design to its impressive functionality, it’s clear that Modo has
+                thought of everything when it comes to creating a truly
+                exceptional robot. I wish more people could try this out and see
+                it themeselves!”
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- third testimonial -->
+        <div class="testimonialRow">
+          <div class="testimonial">
+            <div class="testimonialImage">
+              <img src="images/testimonial_images/third.png" />
+              <p>Hunter Rex</p>
+            </div>
+            <div class="testimonialText">
+              <p>
+                “One thing I love about this robot is how efficient it is. It
+                can perform a wide range of tasks, from cleaning my floors to
+                watering my plants, all with minimal effort on my part. The
+                robot is incredibly precise and never misses a spot, ensuring
+                that my home always looks its best.”
+              </p>
+            </div>
           </div>
         </div>
       </section>
