@@ -3,13 +3,13 @@ body {
   background-color: #232332;
   color: white;
 }
-#wrap {
-  /* border: solid 1px black; */
-}
-#products,
+/* #wrap {
+  border: solid 1px black;
+} */
+/* #products,
 #testimonials {
-  /* border: solid 1px red; */
-}
+  border: solid 1px red;
+} */
 #testimonials {
   background-color: rgba(138, 139, 150, 1);
 }
@@ -119,9 +119,9 @@ body {
 #phone {
   display: flex;
 }
-#contacts {
-  /* border: solid 1px red; */
-}
+/* #contacts {
+  border: solid 1px red;
+} */
 #socialMedia {
   /* border: solid 1px red; */
   display: flex;
