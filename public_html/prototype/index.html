@@ -18,6 +18,9 @@
       #testimonials {
         border: solid 1px red;
       }
+      #testimonials {
+        background-color: rgba(138, 139, 150, 1);
+      }
       .heading {
         border: solid 1px green;
         text-align: center;
@@ -72,7 +75,9 @@
         right: 0px;
       }
       #saleWrap {
-        padding: 60px;
+        padding: 300px;
+        padding-left: 170px;
+        padding-right: 100px;
       }
       #buybtn {
         width: 200px;
@@ -86,17 +91,28 @@
         border-radius: 30px;
         color: black;
       }
+      #navsec {
+        display: flex;
+        justify-content: space-evenly;
+      }
     </style>
   </head>
   <body>
     <div id="wrap">
       <!-- TODO: Nav -->
-      <!-- TODO: Hero Section -->
+      <section id="navsec">
+        <h1>MODO</h1>
+        <input style="width: 500px" type="text" placeholder="Search.." />
+        <h3>Home</h3>
+        <h3>Cart</h3>
+      </section>
+      <!-- Hero Section -->
       <section id="hero" style="width: 100%">
         <!-- <img src="images/hero.png" /> -->
         <div id="sale">
           <div id="saleWrap">
-            <h2>Get your personal assistant today!</h2>
+            <h2>Get your personal</h2>
+            <h2>assistant today!</h2>
             <h1>50% off</h1>
             <div id="buybtn">BUY NOW</div>
           </div>
@@ -188,6 +204,20 @@
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      <section id="footer">
+        <div id="contacts">
+          <h1>Contact</h1>
+          <div id="addy" style="display: flex">
+            <h3>Address:</h3>
+            <h4>&#160;370 Jay Street Brooklyn NY 11201</h4>
+          </div>
+
+          <h3>Email:</h3>
+          <p>help@modo.com</p>
+          <h3>Phone:</h3>
+          <p>212-859-9654</p>
         </div>
       </section>
     </div>
