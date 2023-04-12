@@ -3,18 +3,18 @@ body {
   background-color: #232332;
   color: white;
 }
-/* #wrap {
+#wrap {
   border: solid 1px black;
-} */
-/* #products,
+}
+#products,
 #testimonials {
   border: solid 1px red;
-} */
+}
 #testimonials {
   background-color: rgba(138, 139, 150, 1);
 }
 .heading {
-  /* border: solid 1px green; */
+  border: solid 1px green;
   text-align: center;
 }
 .productsRow,
@@ -23,14 +23,14 @@ body {
   justify-content: center;
 }
 .productImage {
-  /* border: solid 1px red; */
+  border: solid 1px red;
   background-color: rgba(105, 106, 119, 1);
   padding: 20px;
   border-radius: 30px;
   margin: 50px;
 }
 .productDescription {
-  /* border: solid 1px green; */
+  border: solid 1px green;
   background-color: rgba(105, 106, 119, 1);
   padding: 100px;
   margin: 50px;
@@ -44,8 +44,8 @@ body {
   display: flex;
 }
 .testimonialImage {
-  /* border: solid 1px green; */
-  /* background-color: aquamarine; */
+  border: solid 1px green;
+  background-color: aquamarine;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,6 +62,8 @@ body {
 #hero {
   position: relative;
   background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 50vh;
   height: 730px;
 }
@@ -74,9 +76,15 @@ body {
   right: 0px;
 }
 #saleWrap {
-  padding: 300px;
-  padding-left: 170px;
-  padding-right: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#sale #buybtn {
+  margin-left: 34%;
+  background-color: white;
+  font-size: 35%;
+  border-radius: 20px;
 }
 #buybtn {
   width: 200px;
@@ -94,6 +102,8 @@ body {
 #navsec {
   display: flex;
   justify-content: space-evenly;
+  border: solid 1px green;
+  max-height: 80px;
 }
 .nameTag {
   margin-top: 15px;
@@ -119,24 +129,24 @@ body {
 #phone {
   display: flex;
 }
-/* #contacts {
+#contacts {
   border: solid 1px red;
-} */
+}
 #socialMedia {
-  /* border: solid 1px red; */
+  border: solid 1px red;
   display: flex;
   justify-content: space-evenly;
   margin-right: 100px;
   margin-top: 100px;
   width: 400px;
   height: 50px;
-  /* border: solid 1px red; */
+  border: solid 1px red;
 }
 #foot {
   position: relative;
 }
 #newsLetter {
-  /* border: solid 1px red; */
+  border: solid 1px red;
   position: absolute;
   bottom: 0px;
   right: 150px;
