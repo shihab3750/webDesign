@@ -10,6 +10,7 @@ body {
 #products,
 #testimonials {
   border: solid 1px red;
+  background-color: rgba(138, 139, 150, 1);
 }
 #testimonials {
   background-color: rgba(138, 139, 150, 1);
