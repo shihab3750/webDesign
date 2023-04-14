@@ -166,6 +166,9 @@ body {
   height: 50px;
   border: solid 1px red;
 }
+#newsletterInput {
+  width: 80%;
+}
 #foot {
   position: relative;
 }

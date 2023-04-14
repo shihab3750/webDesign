@@ -6,21 +6,21 @@ body {
   overflow-y: scroll;
 }
 #wrap {
-  border: solid 1px black;
+  /* border: solid 1px black; */
   width: 100vw;
   height: 100vh;
 }
-#products,
-#testimonials {
+#products {
   border: solid 1px red;
   background-color: rgba(138, 139, 150, 1);
 }
 #testimonials {
+  border: solid 1px red;
   background-color: rgba(138, 139, 150, 1);
 }
 .heading {
   font-weight: bold;
-  font-size: 350%;
+  font-size: 200%;
   border: solid 1px green;
   text-align: center;
 }
@@ -50,6 +50,7 @@ body {
 } */
 .testimonial {
   display: flex;
+  flex-direction: column;
 }
 .testimonialImage {
   border: solid 1px green;
@@ -59,13 +60,13 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin: 50px;
+  /* margin: 50px; */
 }
 .testimonialText {
   background-color: rgba(35, 35, 50, 1);
   display: flex;
   align-items: center;
-  margin: 50px;
+  margin: 10%;
 }
 #hero {
   position: relative;
@@ -138,35 +139,37 @@ body {
   display: flex;
   justify-content: space-between;
 }
-#addy,
+/* #addy,
 #email,
 #phone {
   display: flex;
-}
+} */
 #contacts {
   border: solid 1px red;
+  padding-left: 5%;
+  text-align: justify;
 }
 #socialMedia {
   border: solid 1px red;
   display: flex;
   flex-direction: column;
-  margin-right: 10%;
-  margin-top: 10%;
-  width: 20%;
-  height: 20%;
-  border: solid 1px red;
+  width: 14%;
+  margin-left: 30px;
+  height: 10%;
 }
-
 #foot {
   position: relative;
+}
+#fb,
+#ig,
+#tiktok {
+  margin: 20%;
 }
 #newsLetter {
   border: solid 1px red;
   position: absolute;
-  bottom: 0px;
-  right: 150px;
-}
-#newsLetterWrap {
+  bottom: 15%;
+  right: 0;
   text-align: center;
 }
 #search {
