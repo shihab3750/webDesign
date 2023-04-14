@@ -98,6 +98,11 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
+  font-size: 320%;
+  padding-top: 10%;
+}
+#sale50 {
+  font-size: 150%;
 }
 #sale #buybtn {
   margin-left: 34%;
