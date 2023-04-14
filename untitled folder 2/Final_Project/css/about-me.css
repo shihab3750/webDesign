@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+/* General */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #c3c49e;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+a {
+  color: black !important;
+  text-decoration: underline;
+}
+/* link states including link, visited, hover, and active */
+a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+a:visited {
+  text-decoration: underline;
+  opacity: 1;
+}
+a:active {
+  opacity: 0.5;
+}
+
+.spacer {
+  height: 1em;
+}
+a:link {
+  color: red;
+}
+
+.line {
+  text-decoration: underline #183a37;
+  max-width: 100%;
+  max-height: 1.5em;
+  overflow-y: hidden;
+  margin-top: -1em;
+  font-size: 2em;
+  color: #c3c49e;
+}
+
+.about {
+  width: 30%;
+  padding: 4% 2% 4% 2%;
+  position: sticky;
+  border-radius: 3em;
+  max-height: 82.4vh;
+  text-align: center;
+  background-color: #183a37;
+  color: white;
+}
+.about a {
+  color: white !important;
+}
+
+#name {
+  text-align: center;
+  display: none;
+}
+
+#name2 {
+  text-align: center;
+}
+
+.about2 {
+  display: none;
+  padding: 4% 2% 4% 2%;
+}
+
+#headshot img {
+  width: 50%;
+  border-radius: 5em;
+}
+#headshot {
+  text-align: center;
+}
+
+/* right-side
+ Section */
+.right-side {
+  padding: 4% 4% 4% 2%;
+  overflow-y: scroll;
+  max-height: 86vh;
+  width: 90%;
+}
+
+/* Media Queries*/
+@media (max-width: 996px) {
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+  #name {
+    display: block !important;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .about {
+    display: none;
+  }
+  .about2 {
+    display: block;
+    padding: 0% 4% 2% 4%;
+  }
+  .right-side {
+    max-width: 100%;
+    max-height: 100% !important;
+    overflow-y: auto;
+    padding: 0% 4% 4% 4%;
+  }
+}

@@ -26,17 +26,21 @@ body {
   justify-content: center;
 }
 .productImage {
+  display: flex;
+  justify-content: center;
   border: solid 1px red;
   background-color: rgba(105, 106, 119, 1);
-  padding: 20px;
   border-radius: 30px;
-  margin: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  width: 30%;
 }
 .productDescription {
   border: solid 1px green;
   background-color: rgba(105, 106, 119, 1);
-  padding: 100px;
-  margin: 50px;
+  padding: 24px;
+  margin-bottom: 50px;
+  font-size: 200%;
 }
 /* .testimonialRow {
   display: flex;
