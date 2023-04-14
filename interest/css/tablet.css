@@ -4,11 +4,15 @@ body {
   color: white;
   font-family: "Roboto Slab", serif;
 }
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
 #wrap {
   border: solid 1px black;
 
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
 #products,
 #testimonials {
@@ -24,8 +28,16 @@ body {
   border: solid 1px green;
   text-align: center;
 }
+#search {
+  margin-right: 5%;
+  padding-right: 1%;
+  width: 34%;
+  height: 30%;
+  margin-top: 2%;
+  padding-left: 0.5%;
+}
 
-.testimonialRow {
+/* .testimonialRow {
   display: flex;
   justify-content: center;
 }
@@ -33,17 +45,22 @@ body {
 .productsRow {
   display: flex;
   grid-template-columns: 1fr 1fr;
+} */
+.productRow,
+.testimonialRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .productImage {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   border: solid 1px red;
   background-color: rgba(105, 106, 119, 1);
   border-radius: 30px;
   margin-bottom: 50px;
-  margin-right: 50px;
-  width: 30%;
+  width: 100%;
 }
 .productDescription {
   border: solid 1px green;
@@ -60,10 +77,11 @@ body {
 
 .testimonial {
   display: flex;
+  flex-direction: column;
 }
 .testimonialImage {
-  border: solid 1px green;
-  background-color: aquamarine;
+  /* border: solid 1px green;
+  background-color: aquamarine; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,6 +115,11 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
+  font-size: 200%;
+  padding-top: 10%;
+}
+#sale50 {
+  font-size: 150%;
 }
 #sale #buybtn {
   margin-left: 34%;
@@ -171,4 +194,8 @@ body {
 }
 #newsLetterWrap {
   text-align: center;
+}
+#navsec h1,
+#navsec h3 {
+  display: none;
 }

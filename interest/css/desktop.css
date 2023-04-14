@@ -3,6 +3,15 @@ body {
   background-color: #232332;
   color: white;
   font-family: "Roboto Slab", serif;
+  overflow-y: scroll;
+}
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:active {
+  opacity: 0.5;
 }
 #wrap {
   border: solid 1px black;

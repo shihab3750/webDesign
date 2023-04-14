@@ -5,23 +5,27 @@ body {
   font-family: "Roboto Slab", serif;
   overflow-y: scroll;
 }
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
 #wrap {
   /* border: solid 1px black; */
   width: 100vw;
   height: 100vh;
 }
 #products {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   background-color: rgba(138, 139, 150, 1);
 }
 #testimonials {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   background-color: rgba(138, 139, 150, 1);
 }
 .heading {
   font-weight: bold;
   font-size: 200%;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   text-align: center;
 }
 
@@ -33,7 +37,7 @@ body {
 }
 
 .productImage {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   background-color: rgba(105, 106, 119, 1);
   border-radius: 30px;
 }
@@ -53,8 +57,8 @@ body {
   flex-direction: column;
 }
 .testimonialImage {
-  border: solid 1px green;
-  background-color: aquamarine;
+  /* border: solid 1px green;
+  background-color: aquamarine; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,8 +157,8 @@ body {
   border: solid 1px red;
   display: flex;
   flex-direction: column;
-  width: 14%;
-  margin-left: 30px;
+  width: 15%;
+  margin-right: 20px;
   height: 10%;
 }
 #foot {
