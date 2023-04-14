@@ -6,6 +6,9 @@ body {
 }
 #wrap {
   border: solid 1px black;
+
+  width: 100vw;
+  height: 100vh;
 }
 #products,
 #testimonials {
@@ -21,11 +24,18 @@ body {
   border: solid 1px green;
   text-align: center;
 }
-.productsRow,
+
 .testimonialRow {
   display: flex;
   justify-content: center;
 }
+
+.productsRow {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
 .productImage {
   display: flex;
   justify-content: center;
@@ -48,6 +58,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
 } */
+
 .testimonial {
   display: flex;
 }
@@ -162,6 +173,11 @@ body {
 #newsLetterWrap {
   text-align: center;
 }
-/* .warning {
-  color: red;
-} */
+#search {
+  margin-right: 5%;
+  padding-right: 1%;
+  width: 34%;
+  height: 30%;
+  margin-top: 2%;
+  padding-left: 0.5%;
+}

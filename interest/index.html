@@ -18,21 +18,21 @@
     <!-- Media query for narrow browser width -->
     <link
       rel="stylesheet"
-      media="only screen and (max-width: 480px)"
+      media="screen and (max-width: 767px)"
       href="css/mobile.css"
     />
 
     <!-- Media query for medium browser width -->
     <link
       rel="stylesheet"
-      media="only screen and (min-width: 481px) and (max-width: 960px)"
+      media="screen and (min-width: 768px) and (max-width: 999px)"
       href="css/tablet.css"
     />
 
     <!-- Media query for full browser width -->
     <link
       rel="stylesheet"
-      media="only screen and (min-width: 961px)"
+      media="only screen and (min-width: 1000px)"
       href="css/desktop.css"
     />
 
@@ -43,50 +43,45 @@
     <div id="wrap">
       <!-- Nav Section -->
       <section id="navsec">
-        <div style="display: flex; align-items: center">
-          <img src="images/logo.png" />
-          <h1
-            style="
-              font-size: 60pt;
-              font-weight: bold;
-              margin-bottom: 4%;
-              margin-left: 5px;
-            "
-          >
-            MODO
-          </h1>
-        </div>
+        <a href="index.html">
+          <div id="logo" style="display: flex; align-items: center">
+            <img src="images/logo.png" />
+            <h1
+              style="
+                font-size: 60pt;
+                font-weight: bold;
+                margin-bottom: 4%;
+                margin-left: 5px;
+              "
+            >
+              MODO
+            </h1>
+          </div>
+        </a>
+        <input id="search" type="text" placeholder="Search.." />
 
-        <input
-          style="
-            margin-right: 5%;
-            padding-right: 1%;
-            width: 34%;
-            height: 30%;
-            margin-top: 2%;
-            padding-left: 0.5%;
-          "
-          type="text"
-          placeholder="Search.."
-        />
-        <div style="display: flex; justify-content: center">
-          <img
-            src="images/products-icon.png"
-            style="width: 43px; height: 47px"
-          />
-          <h3 style="font-size: 24pt; padding-left: 10%; margin-top: 1%">
-            Products
-          </h3>
-        </div>
-        <div style="display: flex; justify-content: center">
-          <img
-            src="images/testimonials-icon.png"
-            style="width: 43px; height: 47px"
-          />
-          <h3 style="font-size: 24pt; padding-left: 5%; margin-top: 1%">
-            Testimonials
-          </h3>
-        </div>
+        <a class="twologs" href="products.html">
+          <div style="display: flex; justify-content: center">
+            <img
+              src="images/products-icon.png"
+              style="width: 43px; height: 47px"
+            />
+            <h3 style="font-size: 24pt; padding-left: 10%; margin-top: 1%">
+              Products
+            </h3>
+          </div>
+        </a>
+        <a class="twologs" href="testimonials.html">
+          <div class="twologs" style="display: flex; justify-content: center">
+            <img
+              src="images/testimonials-icon.png"
+              style="width: 43px; height: 47px"
+            />
+            <h3 style="font-size: 24pt; padding-left: 5%; margin-top: 1%">
+              Testimonials
+            </h3>
+          </div>
+        </a>
       </section>
       <!-- Hero Section -->
       <section id="hero" style="width: 100%">
@@ -97,7 +92,9 @@
                 Get your personal <br />
                 assistant today! <br />
                 <div style="font-size: 150%">50% off</div>
-                <div id="buybtn">BUY NOW</div>
+                <a href="products.html">
+                  <div id="buybtn">BUY NOW</div>
+                </a>
               </h2>
             </div>
           </div>

@@ -6,6 +6,9 @@ body {
 }
 #wrap {
   border: solid 1px black;
+
+  width: 100vw;
+  height: 100vh;
 }
 #products,
 #testimonials {
@@ -21,11 +24,17 @@ body {
   border: solid 1px green;
   text-align: center;
 }
-.productsRow,
+
 .testimonialRow {
   display: flex;
   justify-content: center;
 }
+
+.productsRow {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+}
+
 .productImage {
   display: flex;
   justify-content: center;
@@ -48,6 +57,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
 } */
+
 .testimonial {
   display: flex;
 }
@@ -162,6 +172,3 @@ body {
 #newsLetterWrap {
   text-align: center;
 }
-/* .warning {
-  color: red;
-} */

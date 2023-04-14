@@ -3,9 +3,12 @@ body {
   background-color: #232332;
   color: white;
   font-family: "Roboto Slab", serif;
+  overflow-y: scroll;
 }
 #wrap {
   border: solid 1px black;
+  width: 100vw;
+  height: 100vh;
 }
 #products,
 #testimonials {
@@ -21,27 +24,24 @@ body {
   border: solid 1px green;
   text-align: center;
 }
-.productsRow,
+
+.productRow,
 .testimonialRow {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
+
 .productImage {
-  display: flex;
-  justify-content: center;
   border: solid 1px red;
   background-color: rgba(105, 106, 119, 1);
   border-radius: 30px;
-  margin-bottom: 50px;
-  margin-right: 50px;
-  width: 30%;
 }
 .productDescription {
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: solid 1px green;
   background-color: rgba(105, 106, 119, 1);
-  padding: 24px;
-  margin-bottom: 50px;
-  font-size: 200%;
 }
 /* .testimonialRow {
   display: flex;
@@ -107,11 +107,19 @@ body {
   cursor: pointer;
 }
 #navsec {
+  position: relative;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
   border: solid 1px green;
-  height: 164px;
+  min-height: 164px;
+}
+#navsec h1,
+#navsec h3 {
+  display: none;
+}
+.twologos {
+  margin-top: 83%;
 }
 .nameTag {
   margin-top: 15px;
@@ -162,6 +170,8 @@ body {
 #newsLetterWrap {
   text-align: center;
 }
-/* .warning {
-  color: red;
-} */
+#search {
+  position: absolute;
+  bottom: 0;
+  padding-right: 1%;
+}

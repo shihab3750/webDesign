@@ -43,59 +43,56 @@
     <div id="wrap">
       <!-- Nav Section -->
       <section id="navsec">
-        <div style="display: flex; align-items: center">
-          <img src="images/logo.png" />
-          <h1
-            style="
-              font-size: 60pt;
-              font-weight: bold;
-              margin-bottom: 4%;
-              margin-left: 5px;
-            "
-          >
-            MODO
-          </h1>
-        </div>
+        <a href="index.html">
+          <div id="logo" style="display: flex; align-items: center">
+            <img src="images/logo.png" />
+            <h1
+              style="
+                font-size: 60pt;
+                font-weight: bold;
+                margin-bottom: 4%;
+                margin-left: 5px;
+              "
+            >
+              MODO
+            </h1>
+          </div>
+        </a>
+        <input id="search" type="text" placeholder="Search.." />
 
-        <input
-          style="
-            margin-right: 5%;
-            padding-right: 1%;
-            width: 34%;
-            height: 30%;
-            margin-top: 2%;
-            padding-left: 0.5%;
-          "
-          type="text"
-          placeholder="Search.."
-        />
-        <div style="display: flex; justify-content: center">
-          <img
-            src="images/products-icon.png"
-            style="width: 43px; height: 47px"
-          />
-          <h3 style="font-size: 24pt; padding-left: 10%; margin-top: 1%">
-            Products
-          </h3>
-        </div>
-        <div style="display: flex; justify-content: center">
-          <img
-            src="images/testimonials-icon.png"
-            style="width: 43px; height: 47px"
-          />
-          <h3 style="font-size: 24pt; padding-left: 5%; margin-top: 1%">
-            Testimonials
-          </h3>
-        </div>
+        <a class="twologs" href="products.html">
+          <div style="display: flex; justify-content: center">
+            <img
+              src="images/products-icon.png"
+              style="width: 43px; height: 47px"
+            />
+            <h3 style="font-size: 24pt; padding-left: 10%; margin-top: 1%">
+              Products
+            </h3>
+          </div>
+        </a>
+        <a class="twologs" href="testimonials.html">
+          <div class="twologs" style="display: flex; justify-content: center">
+            <img
+              src="images/testimonials-icon.png"
+              style="width: 43px; height: 47px"
+            />
+            <h3 style="font-size: 24pt; padding-left: 5%; margin-top: 1%">
+              Testimonials
+            </h3>
+          </div>
+        </a>
       </section>
       <section id="products">
         <div class="heading">
           <h1>Products</h1>
         </div>
+
         <div class="productsRow">
           <div class="productImage">
             <img src="images/robo_1.png" />
           </div>
+
           <div class="productDescription">
             <h2>Sonic 350c</h2>
             <p>Personal Robot, can wash dishes, clean house, cook and fly!</p>
@@ -106,14 +103,19 @@
             </div>
           </div>
         </div>
+
         <!-- New Product -->
         <div class="productsRow">
           <div class="productImage">
-            <img src="images/robo_2.png" />
+            <img src="images/robo_1.png" />
           </div>
+
           <div class="productDescription">
-            <h2>Sonic 350c</h2>
-            <p>Personal Robot, can wash dishes, clean house and cook!</p>
+            <h2>Sonic 450c</h2>
+            <p>
+              Personal Robot, can wash dishes, clean house and cook!&nbsp;
+              &nbsp; &nbsp; &nbsp;
+            </p>
             <h4>Price: $299.99</h4>
             <div class="addCartWrap">
               <p>Only 1 left in stock</p>
@@ -122,6 +124,7 @@
           </div>
         </div>
       </section>
+
       <section id="foot">
         <div id="footer">
           <div id="contacts">
