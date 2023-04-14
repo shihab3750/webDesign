@@ -14,14 +14,13 @@ a:active {
   opacity: 0.5;
 }
 #wrap {
-  border: solid 1px black;
-
+  /* border: solid 1px black; */
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
 }
 #products,
 #testimonials {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   background-color: rgba(138, 139, 150, 1);
 }
 #testimonials {
@@ -30,7 +29,7 @@ a:active {
 .heading {
   font-weight: bold;
   font-size: 350%;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   text-align: center;
 }
 
@@ -48,7 +47,7 @@ a:active {
 .productImage {
   display: flex;
   justify-content: center;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   background-color: rgba(105, 106, 119, 1);
   border-radius: 30px;
   margin-bottom: 50px;
@@ -56,7 +55,7 @@ a:active {
   width: 30%;
 }
 .productDescription {
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-color: rgba(105, 106, 119, 1);
   padding: 24px;
   margin-bottom: 50px;
@@ -72,8 +71,8 @@ a:active {
   display: flex;
 }
 .testimonialImage {
-  border: solid 1px green;
-  background-color: aquamarine;
+  /* border: solid 1px green; */
+  /* background-color: aquamarine; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,7 +106,7 @@ a:active {
   text-align: center;
   display: flex;
   justify-content: center;
-  font-size: 320%;
+  font-size: 280%;
   padding-top: 10%;
 }
 #sale50 {
@@ -135,7 +134,7 @@ a:active {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   height: 164px;
 }
 .nameTag {
@@ -163,17 +162,18 @@ a:active {
   display: flex;
 }
 #contacts {
-  border: solid 1px red;
+  /* border: solid 1px red; */
+  font-size: 120%;
+  padding-left: 2%;
 }
 #socialMedia {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   display: flex;
-  justify-content: space-evenly;
-  margin-right: 100px;
-  margin-top: 100px;
-  width: 400px;
-  height: 50px;
-  border: solid 1px red;
+  width: 35%;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-top: 4%;
+  height: 10%;
 }
 #newsletterInput {
   width: 80%;
@@ -182,13 +182,12 @@ a:active {
   position: relative;
 }
 #newsLetter {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   position: absolute;
-  bottom: 0px;
-  right: 150px;
-}
-#newsLetterWrap {
+  bottom: 5%;
+  right: 14.9%;
   text-align: center;
+  width: 30%;
 }
 #search {
   margin-right: 5%;
@@ -197,4 +196,8 @@ a:active {
   height: 30%;
   margin-top: 2%;
   padding-left: 0.5%;
+}
+#newsletterInput {
+  width: 90%;
+  height: 30px;
 }

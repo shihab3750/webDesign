@@ -3,20 +3,20 @@ body {
   background-color: #232332;
   color: white;
   font-family: "Roboto Slab", serif;
+  overflow-y: scroll;
 }
 a {
   cursor: pointer;
   text-decoration: none;
 }
 #wrap {
-  border: solid 1px black;
+  /* border: solid 1px black; */
 
   width: 100vw;
-  height: auto;
 }
 #products,
 #testimonials {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   background-color: rgba(138, 139, 150, 1);
 }
 #testimonials {
@@ -25,7 +25,7 @@ a {
 .heading {
   font-weight: bold;
   font-size: 350%;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   text-align: center;
 }
 #search {
@@ -56,18 +56,19 @@ a {
 
 .productImage {
   text-align: center;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   background-color: rgba(105, 106, 119, 1);
   border-radius: 30px;
   margin-bottom: 50px;
   width: 100%;
 }
 .productDescription {
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-color: rgba(105, 106, 119, 1);
   padding: 24px;
   margin-bottom: 50px;
   font-size: 200%;
+  padding: 2%;
 }
 /* .testimonialRow {
   display: flex;
@@ -143,7 +144,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   height: 164px;
 }
 .nameTag {
@@ -171,31 +172,43 @@ a {
   display: flex;
 }
 #contacts {
-  border: solid 1px red;
+  /* border: solid 1px red; */
+  padding: 2%;
 }
 #socialMedia {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   display: flex;
-  justify-content: space-evenly;
-  margin-right: 100px;
-  margin-top: 100px;
-  width: 400px;
-  height: 50px;
-  border: solid 1px red;
+  width: 45%;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-top: 4%;
+  height: 10%;
+}
+#fb,
+#ig,
+#tiktok {
+  width: 30%;
+  margin: 5%;
+}
+#newsletterInput {
+  width: 80%;
 }
 #foot {
   position: relative;
 }
 #newsLetter {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   position: absolute;
-  bottom: 0px;
-  right: 150px;
-}
-#newsLetterWrap {
+  bottom: 5%;
+  right: 14.9%;
   text-align: center;
+  width: 30%;
 }
 #navsec h1,
 #navsec h3 {
   display: none;
+}
+#newsletterInput {
+  width: 90%;
+  height: 30px;
 }
