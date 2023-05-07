@@ -215,8 +215,8 @@ a:active {
 }
 
 #atcb-content {
-  width: 70%;
-  height: 50%;
+  width: 50%;
+  height: 40%;
   background-color: #232332;
   /* color: black; */
   border-radius: 25px;
@@ -224,5 +224,14 @@ a:active {
   align-items: center;
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 200%;
+  padding: 5%;
+}
+.got-it-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 2%;
+  margin-bottom: 2%;
 }
