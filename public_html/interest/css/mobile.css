@@ -9,6 +9,10 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+.cartt:active,
+a:active {
+  opacity: 0.5;
+}
 #wrap {
   /* border: solid 1px black; */
   width: 100vw;
@@ -208,7 +212,7 @@ a {
   z-index: 1000;
   top: 0px;
   left: 0px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }

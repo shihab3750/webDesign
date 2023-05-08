@@ -10,6 +10,7 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+.cartt:active,
 a:active {
   opacity: 0.5;
 }
@@ -209,7 +210,7 @@ a:active {
   z-index: 1000;
   top: 0px;
   left: 0px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
