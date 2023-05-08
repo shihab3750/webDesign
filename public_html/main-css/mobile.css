@@ -1,7 +1,22 @@
 body {
-  color: white;
-  background-color: 99A1A6;
+  color: #323232;
+  background-color: #ddd0c8;
 }
 .zero-padding {
   padding: 0;
+}
+
+#about-me,
+#work-exp,
+#nav-sec,
+#personal-projects,
+#main-body,
+#footer {
+  border: #323232 solid;
+}
+#hidden-abt {
+  display: flex;
+}
+#hidden-img {
+  display: none;
 }
