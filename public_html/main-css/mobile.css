@@ -1,17 +1,13 @@
 body {
   color: #323232;
   background-color: #ddd0c8;
+  font-family: sans-serif;
 }
 .zero-padding {
   padding: 0;
 }
 
-#about-me,
-#work-exp,
-#nav-sec,
-#personal-projects,
-#main-body,
-#footer {
+.row {
   border: #323232 solid;
 }
 #hidden-abt {
@@ -19,4 +15,23 @@ body {
 }
 #hidden-img {
   display: none;
+}
+.accordion-body {
+  background-color: #ddd0c8;
+}
+.accordion {
+  --bs-accordion-bg: #ddd0c8;
+  --bs-accordion-active-bg: #ddd0c8;
+}
+
+.change-color {
+  background-color: #ddd0c8;
+}
+#card-stack {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#footer {
+  border: none;
 }
